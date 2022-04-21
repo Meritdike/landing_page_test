@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.header-right ul li {
+    margin-right: 40px;
+}
+
+.header-right ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navigation {
+    border-right: 2px solid #939191;
+}
+
+.road-assistance {
+    display: flex;
+    align-items: center;
+}
+
+.road-assistance .call-logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.road-assistance .call-logo {
+    margin-left: 30px;
+    margin-right: 14px;
+}
+
+.road-assistance .text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.7;
+}
+
+.road-assistance .number {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    min-height: 100vh;
+}
+
+.first-section-left {
+    width: 46%;
+    padding: 50px 0px;
+}
+
+.first-section-left h1 {
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.first-section-left button {
+    padding: 16px 40px;
+    background-color: #ff6433;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    border: none;
+}
+
+.weAreOpen {
+    display: flex;
+    align-items: center;
+}
+
+.weAreOpen img {
+    margin-right: 13px;
+}
+
+.weAreOpen-text {
+    color: #939191;
+    font-size: 14px;
+}
+
+.weAreOpen-time {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.first-section-right {
+    width: 46%;
+    background: url(../img/repair\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quick-services {
+    position: relative;
+    width: 246px;
+    height: 90px;
+    border: 10px solid rgba(225, 225, 225, 0.5);
+    background-clip: padding-box;
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+    border-radius: 59px;
+    background-color: white;
+    margin-left: -32px;
+    margin-top: 55px;
+}
+
+.green-24hr {
+    width: 50px;
+    height: 50px;
+    background-color: #5CBA99;
+    border-radius: 50%;
+    margin: 10px 150px 10px 10px;
+    border: 2px solid #5CBA99;
+}
+
+.green-24hr h5 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 0px;
+}
+
+.green-24hr span {
+    font-size: 10px;
+}
+
+.quick-services p {
+    padding: 10px;
+    position: absolute;
+    top: 12px;
+    left: 64px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rating {
+    width: 260px;
+    height: 96px;
+    border: 10px solid rgba(225, 225, 225, 0.5);
+    background-clip: padding-box;
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+    border-radius: 59px;
+    background-color: white;
+    margin-top: 220px;
+    margin-left:260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stars img {
+   width: 170px;
+   height: 30px;
+   padding-left: 10px;
+}
+
+.rating-number {
+    font-weight: 600;
+}
+
+.rating-text {
+    font-size: 12px;
+    color: #939191;
+}
+
+#second-section {
+    background-color: #E2E6E9;
+    margin: 50px 0px;
+}
+
+.second-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    min-height: 100vh;
+    padding: 90px 0px;
+}
+
+.second-section-left {
+    width: 46%;
+}
+
+.second-section-left h1 {
+    font-size: 40px;
+    font-weight:bolder;
+    padding-bottom: 50px;
+}
+
+.convenient-service {
+    display: flex;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.convenient-service-icon img {
+    margin-right: 16px;
+}
+
+.convenient-service-textHeading {
+    padding-bottom: 8px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.convenient-service-textNote {
+    font-size: 14px;
+}
+.expert-mechanics {
+    display: flex;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.expert-mechanics-icon img {
+    margin-right: 16px;
+}
+
+.expert-mechanics-textHeading {
+    padding-bottom: 8px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.expert-mechanics-textNote {
+    font-size: 14px;
+}
+.pricing {
+    display: flex;
+    align-items: center;
+    padding-bottom: 34px;
+}
+
+.pricing-icon img {
+    margin-right: 16px;
+}
+
+.pricing-textHeading {
+    padding-bottom: 8px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.pricing-textNote {
+    font-size: 14px;
+}
+
+.more-aboutUs p {
+    padding-left: 64px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.more-aboutUs span {
+    padding-left: 21px;
+}
+
+.second-section-right {
+    width: 46%;
+}
+
+.second-section-right h2 {
+    font-size: 34px;
+    font-weight: 700;
+    padding-bottom: 32px;
+} 
+
+.get-quote input[type="text"], .get-quote input[type="number"] {
+    padding: 18px 30px;
+    width: 100%;
+    border: 2px solid #E2E6E9;
+}
+
+.get-quote input[type="submit"] {
+    padding: 16px 40px;
+    background-color: #ff6433;
+    color: #fff;
+    border-radius: 12px;
+    border: 2px solid #ff6433;
+    margin-top: 32px;
+}
+
+.third-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0px;
+    min-height: 100vh;
+}
+
+.third-section-left {
+    width: 46%;
+    padding-bottom: 50px;
+}
+
+.third-section-left h1{
+    padding-top: 40px;
+    padding-bottom: 16px;
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.third-section-left p {
+    font-size: 14px;
+}
+
+.learn-more-btn button{
+    padding: 16px 40px;
+    background-color: #ff6433;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    border: none;
+}
+
+.third-section-right {
+    width: 46%;
+    padding-right: 200px;
+}
+
+.processes {
+    /* display: flex; */
+    padding-bottom: 30px;
+}
+
+.purple-circle-01, .purple-circle-02, .purple-circle-03 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #661CE7;
+    border: 2px solid #661CE7;
+    padding: 26px;
+    position: relative;
+}
+
+.purple-circle-01 h1, .purple-circle-02 h1, .purple-circle-03 h1 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    color: #fff;
+}
+
+.process-01, .process-02, .process-03 {
+    display: flex;
+    /* padding-left: 20px;
+    padding-top: 18px; */
+}
+
+.process-01 h4, .process-02 h4, .process-03 h4 {
+    font-size: 18px;
+    padding-bottom: 6px;
+    padding-top: 22px;
+    padding-left: 14px;
+}
+
+/* .dotted-border {
+    border-left: 2px dotted #ff6433;
+    padding-right: 30px;
+} */
+
+.processes p, .processes p, .processes p {
+    font-size: 14px;
+}
+
+.process-paragraph {
+    margin-left: 30px;
+    border-left: 3px dotted #ff6433;
+    margin-top: 12px;
+}
+
+.process-paragraph p {
+    padding-left: 40px;
+}
+
+#fourth-section {
+    background-color: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+
+.fourth-section-heading p{
+    font-size: 22px;
+    font-weight: 600;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+.fourth-section-heading h1 {
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 50px;
+    padding-left: 220px;
+    padding-right: 220px;
+    text-align: center;
+}
+
+.what-we-offer-options {
+    width: 250px;
+    height: 150px;
+    border: 3px solid #f2f2f2;
+    background-color: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .what-we-offer-options img {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+.what-we-offer-options p {
+    text-align: center;
+    position: absolute;
+    top: 80px;
+} */
+
+.what-we-offer-options:hover {
+    background-color: #ff6433;
+}
+
+.what-we-offer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* .fa-tire {
+    color: #000;
+} */
+
+/* .what-we-offer .wheel img {
+    width: 50px;
+    height: 50px;
+    margin-left: 18px; 
+}*/
+
+.what-we-offer .diagnostics img {
+    margin-left: 18px;
+}
+
+.what-we-offer .engine-repair img {
+    margin-left: 26px;
+}
+
+.what-we-offer .oil-filter img {
+    margin-left: 12px;
+}
+
+.what-we-offer .body-work img {
+    margin-left: 12px;
+}
+
+.what-we-offer .batteries img {
+    margin-left: 12px;
+}
+
+.what-we-offer .insurance img {
+    margin-left: 36px;
+}
+
+.what-we-offer .custom-service img {
+    margin-left: 30px;
+}
+
+.fourth-section-paragraph {
+    padding: 42px;
+    text-align: end;
+}
+
+.car-tools-image {
+    margin-top: 80px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/car\ image.png), url(../img/tools\ image.png);
+    background-repeat: no-repeat;
+    background-position: left, right;
+    background-size: 50%, 50%;
+}
+
+.contactUs-box {
+    width: 500px;
+    height: 350px;
+    border: 1pxx solid #ff6433;
+    background-color: #ff6433;
+    margin-left: 220px;
+}
+
+.contactUs-box h1 {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    padding-top: 60px;
+    padding-left: 36px;
+    padding-right: 30px;
+    padding-bottom: 36px;
+}
+
+.contactUs-box button {
+    padding: 16px 40px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 12px;
+    margin-left: 36px;
+}
+
+.service-rating {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-rating h1 {
+    color: #661CE7;
+    font-size: 34px;
+}
+
+.service-rating p {
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+#fifth-section {
+    background-color: #fafafa;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    min-height: 80vh;
+}
+
+.fifth-section h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 42px;
+    font-weight: 800;
+}
+
+.first-row-brands {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-row-brands {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
